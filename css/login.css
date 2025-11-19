@@ -1,0 +1,58 @@
+body{
+    background-color: #1A1A2E;
+    font-family: Arial, sans-serif;
+}
+
+#cabecalho{
+    padding: none;
+    display: flex;
+    justify-content: top;
+    padding: 20px;
+    height: 5vh;
+    width: 100%;
+    background-color: #26264A
+}
+
+h1{
+    font-size: 50px;
+    color: #00FFFF;
+    text-align: center;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#login form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: #26264A;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+form .titulo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #00FFFF
+}
+
+#link-cadastro{
+    color: #00FFFF;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+hover #link-cadastro{
+    cursor: pointer;
+    color: #8A2BE2;
+}

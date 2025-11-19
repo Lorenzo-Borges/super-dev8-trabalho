@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div id="cabecalho">
+        <img src="../assets/logo.png" alt="logo">
+    </div>
+    <div>
+        <h1>Login</h1>
+    </div>
+    <div id="login">
+        <form action="../js/login.js" method="post">
+            <label class="titulo" for="username">Usuário</label>
+            <input type="text" name="username" placeholder="Usuário" required>
+           <label class="titulo" for="password">Senha</label>
+            <input type="password" name="password" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+            <a id="link-cadastro" href="cadastro.html">Não tem uma conta? Cadastre-se</a>
+        </form>
+    </div>
+</body>
+</html>
