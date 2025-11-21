@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,75 @@
     <link rel="stylesheet" href="../css/login.css">
     <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
 </head>
+
 <body>
-    <div id="cabecalho">
-        <img src="../assets/logo.png" alt="logo">
-    </div>
-    <div>
-        <h1>Login</h1>
-    </div>
-    <div id="login">
-        <form action="../js/login.js" method="post">
-            <label class="titulo" for="username">Usuário</label>
-            <input type="text" name="username" placeholder="Usuário" required>
-           <label class="titulo" for="password">Senha</label>
-            <input type="password" name="password" placeholder="Senha" required>
-            <button type="submit">Entrar</button>
-            <a id="link-cadastro" href="cadastro.html">Não tem uma conta? Cadastre-se</a>
-        </form>
+    <!-- --------------------------Navbar Lateral-------------------------- -->
+    <div class="tudo">
+        <aside class="navbar">
+            <div id="logo">
+                <img src="../assets/logo.png" alt="logo">
+                <h1 class="texto-logo">jogos maneiros</h1>
+            </div>
+
+            <nav class="navbar-lista">
+                <ul>
+                    <li>
+                        <a class="link-nav" href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="catalogo.html">Catalogo</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="favoritos.html">Favoritos</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="filtro.html">Pesquisa</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="detalhes.html">Detalhes</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="adicionar.html">Adicionar Jogo</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="remover.html">Remover Jogo</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="perfil.html">Perfil</a>
+                    </li>
+                    <li>
+                        <a class="link-nav active" href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="cadastro.html">Cadastro</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="configuracoes.html">Configurações</a>
+                    </li><li>
+                        <a class="link-nav" href="sobrenos.html">Sobre Nós</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- --------------------------Conteúdo-------------------------- -->
+        <main class="conteudo">
+            <div>
+                <h1 class="titulo-login">Login</h1>
+            </div>
+
+            <div id="login">
+                <form action="../js/login.js" method="post">
+                    <label class="titulo" for="username">Usuário</label>
+                    <input type="text" name="username" placeholder="Usuário" required>
+                    <label class="titulo" for="password">Senha</label>
+                    <input type="password" name="password" placeholder="Senha" required>
+                    <button type="submit">Entrar</button>
+                    <a id="link-cadastro" href="cadastro.html">Não tem uma conta? Cadastre-se</a>
+                </form>
+            </div>
+        </main>
     </div>
 </body>
+
 </html>
