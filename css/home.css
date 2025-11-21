@@ -89,62 +89,62 @@ body {
     padding-left: 15px;
 }
 
-
-.titulo-cadastro{
+.titulo{
+    text-align: center;
+    color: #00aeff;
+    padding-bottom: 30px;
+    margin-top: 50px;
     font-size: 50px;
-    color: #00aeff;
+}
+
+.sobre{
     text-align: center;
-}
-
-.cadastro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.cadastro form{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    background-color: #26264A;
-    padding: 30px;
-    border-radius: 10px;
-}
-
-form .titulo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #00aeff;
-}
-
-.cadastro input{
-    border-radius: 20px;
-    padding: 6px;
-}
-
-.cadastro button{
-    border: none;
-    border-radius: 20px;
-    padding: 10px;
-    width: 120px;
-    background-color: #00aeff;
-    color: #fff;
+    color: var(--texto1);
     font-size: 20px;
 }
 
-.link-login{
+.titulo-noticia{
+    text-align: center;
+    margin-top:70px;
+}
+
+.noticias{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    
+}
+
+.not{
+    background-color: var(--fundo2);
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.not img{
+    width: 300px;
+    
+}
+
+.not a{
     color: #00aeff;
     text-decoration: none;
     font-size: 14px;
     cursor: pointer;
+    font-size: 20px;
+    
 }
 
-.link-login:hover{
+.not a:hover{
     cursor: pointer;
     color: #354497;
+}
+
+.not p{
+    margin-top: 10px;
 }
