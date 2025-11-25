@@ -114,6 +114,12 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.jogo:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .jogo img {
     width: 100%;
     border-radius: 5px;
@@ -129,4 +135,9 @@ body {
     color: var(--texto2);
     font-size: 0.9em;
     text-align: center;
+}
+
+li {
+    margin-bottom: 5px;
+    list-style: none;
 }
