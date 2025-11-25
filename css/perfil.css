@@ -1,0 +1,63 @@
+body {
+    background-color: #1A1A2E;
+    font-family: Arial, sans-serif;
+}
+
+.bem-vindo {
+    background-color: #a5a5d4;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    color: #E0E0E0;
+}
+
+.usuario-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.usuario-info h1{
+    margin-bottom: 0px;
+}
+
+.btn-edit-dados {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+}
+
+.editar-dados {
+    border-radius: 2px;
+    border: none;
+    background: #8A2BE2;
+    padding: 10px;
+    color: #E0E0E0;
+    
+}
+
+.atalhos{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: #E0E0E0;
+}
+
+.meus-atalhos{
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+.btn-atalhos{
+    border: none;
+    background-color: #a5a5d4;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 10px;
+    color: #E0E0E0;
+    
+    
+}
+
