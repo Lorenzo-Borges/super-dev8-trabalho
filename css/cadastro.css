@@ -82,7 +82,7 @@ body {
     color: var(--detalhe2);
 }
 
-.link-nav .active a {
+.ativo{
     background-color: var(--detalhe2); 
     color: var(--texto1);
     border-left: 5px solid var(--detalhe1);
@@ -94,6 +94,8 @@ body {
     font-size: 50px;
     color: #00aeff;
     text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .cadastro{
@@ -101,7 +103,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .cadastro form{
@@ -123,6 +124,7 @@ form .titulo {
 }
 
 .cadastro input{
+    border: none;
     border-radius: 20px;
     padding: 6px;
 }
