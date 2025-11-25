@@ -1,4 +1,3 @@
-/* --------------------------Paleta de cores-------------------------- */
 :root {
     --fundo1: #1A1A2E;         /* Fundo Principal */
     --fundo2: #26264A;      /* Fundo da Secundario */
@@ -38,8 +37,8 @@ body {
 }
 
 .conteudo {
-    flex-grow: 1; /* Faz o conteúdo ocupar o espaço restante */
-    padding: 20px;
+  flex-grow: 1;
+  padding: 20px;
 }
 
 #logo {
@@ -83,6 +82,13 @@ body {
     color: var(--detalhe2);
 }
 
+.link-nav .active a {
+    background-color: var(--detalhe2); 
+    color: var(--texto1);
+    border-left: 5px solid var(--detalhe1);
+    padding-left: 15px;
+}
+
 .ativo{
     background-color: var(--detalhe2); 
     color: var(--texto1);
@@ -90,75 +96,67 @@ body {
     padding-left: 15px;
 }
 
-.titulo-login {
+.titulo{
+    text-align: center;
+    color: #00aeff;
+    padding-bottom: 30px;
+    margin-top: 50px;
     font-size: 50px;
-    color: var(--detalhe2);
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
 }
 
-#login {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.clique{
+    text-align: center;
+    color: var(--texto1);
+    font-size: 20px;
 }
 
-#login form {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+.typeconfig{
     background-color: var(--fundo2);
-    padding: 30px;
-    border-radius: 10px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
 }
 
-form .titulo {
-    font-size: 24px;
-    font-weight: bold;
-    color: var(--detalhe2);
+.typeconfig button{
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 15px 8px 15px;
+    margin: 8px;
 }
 
-input{
-    padding: 10px;
-    border: none;
-    border-radius: 25px;
-    font-size: 24px;
+.dark{
+    background-color: var(--fundo1);
+    color: #fff;
 }
 
-button {
-    background-color: var(--detalhe2);
-    color: var(--texto1);
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.dark:hover{
+    background-color: #000;
 }
 
-button:hover {
-    background-color: var(--detalhe1);
-}
-
-#link-cadastro {
-    color: var(--detalhe2);
-    text-decoration: none;
-    font-size: 14px;
+.typeconfig button:hover{
     cursor: pointer;
 }
 
-#link-cadastro:hover {
-    cursor: pointer;
-    color: var(--detalhe1);
+.light:hover{
+    background-color: #cdcdcd;
 }
 
-.ativo{
-    background-color: var(--detalhe2); 
-    color: var(--texto1);
-    border-left: 5px solid var(--detalhe1);
-    padding-left: 15px;
+.typeconfig input{
+    margin-top: 10px;
+}
+
+.typeconfig input:hover{
+    cursor: pointer;
+}
+
+.config{
+    display: flex;
+    justify-content: center;
+}
+
+.typeconfig select{
+    margin-top: 20px;
+    border: 0px;
+    border-radius: 20px;
 }

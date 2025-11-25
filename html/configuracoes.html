@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações</title>
+    <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/configuracao.css">
+</head>
+
+<body>
+    <div class="tudo">
+        <aside class="navbar">
+            <div id="logo">
+                <img src="../assets/logo.png" alt="logo">
+                <h1 class="texto-logo">jogos maneiros</h1>
+            </div>
+
+            <nav class="navbar-lista">
+                <ul>
+                    <li>
+                        <a class="link-nav " href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="catalogo.html">Catalogo</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="favoritos.html">Favoritos</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="filtro.html">Pesquisa</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="detalhes.html">Detalhes</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="adicionar.html">Adicionar Jogo</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="remover.html">Remover Jogo</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="perfil.html">Perfil</a>
+                    </li>
+                    <li>
+                        <a class="link-nav active" href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="cadastro.html">Cadastro</a>
+                    </li>
+                    <li>
+                        <a class="link-nav ativo" href="configuracoes.html">Configurações</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="sobrenos.html">Sobre Nós</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="conteudo">
+
+            <h1 class="titulo">Configurações</h1>
+
+            <div class="config">
+                <div class="typeconfig">
+                    <p class="clique">Tema:</p>
+                    <button class="dark">Dark</button>
+                    <button class="light">Light</button>
+                </div>
+
+                <div class="typeconfig">
+                    <p class="clique">Permitir notificações</p>
+                    <input type="checkbox">
+                </div>
+
+                <div class="typeconfig">
+                    <p class="clique">Vizualização de perfil</p>
+                    <input type="radio" id="todos" name="perfil">
+                    <label for="todos">Todos</label>
+
+                    <input type="radio" id="amigos" name="perfil">
+                    <label for="amigos">amigos</label>
+                </div>
+            </div>
+            <div class="config">
+                <div class="typeconfig">
+                    <p class="clique">idioma</p>
+                    <select name="idioma" id="idioma">
+                        <option value="pt">Português</option>
+                        <option value="en">Inglês</option>
+                        <option value="zh">Mandarim</option>
+                        <option value="hi">Hindi</option>
+                        <option value="es">Espanhol</option>
+                        <option value="fr">Francês</option>
+                        <option value="ar">Árabe</option>
+                        <option value="bn">Bengali</option>
+                        <option value="ru">Russo</option>
+                        <option value="id">Indonésio</option>
+
+                    </select>
+                </div>
+                <div class="typeconfig">
+                    <p class="clique">Leitor de tela</p>
+                    <input type="checkbox">
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+
+</html>
