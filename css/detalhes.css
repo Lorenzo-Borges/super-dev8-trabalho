@@ -1,0 +1,72 @@
+:root {
+    --fundo1: #1A1A2E;
+    /* Fundo Principal */
+    --fundo2: #26264A;
+    /* Fundo da Secundario */
+    --texto1: #E0E0E0;
+    /* Texto Principal */
+    --texto2: #A0A0C0;
+    /* Texto Secundario */
+    --detalhe1: #354497;
+    /* Detalhe Azul Escuro */
+    --detalhe2: #00aeff;
+    /* Detalhe Ciano */
+}
+
+
+body {
+    background-color: var(--fundo1);
+    color: var(--texto1);
+}
+
+.navbar {
+    width: 250px;
+    background-color: var(--fundo2);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+.detalhes-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    
+}
+
+.caixa-jogos{
+    background-color: #131533;  
+    padding: 20px;
+    border-radius: 12px;
+    width: 60%;                   
+    color: white;
+    margin-bottom: 40px;    
+    display: flex;
+    flex-direction: row;
+    gap: 250px;    
+}
+
+
+.imagem-game img{ 
+    
+    width: 500px;
+    height: 400px;
+}
+
+
+.conteudo-texto{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.conteudo-texto p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.text-sombra{
+    color: #A0A0C0;
+}
