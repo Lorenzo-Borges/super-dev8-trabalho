@@ -6,7 +6,9 @@
     --texto2: #A0A0C0;  /* Texto Secundario */
     --detalhe1: #354497;     /* Detalhe Azul Escuro */
     --detalhe2: #00aeff;   /* Detalhe Ciano */
+    
 }
+
 
 /* Tira o margin e o padding padrão de tudo e declara a fonte padrão */
 * {
