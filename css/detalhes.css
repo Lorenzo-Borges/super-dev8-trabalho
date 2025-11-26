@@ -13,11 +13,25 @@
     /* Detalhe Ciano */
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 
 body {
     background-color: var(--fundo1);
     color: var(--texto1);
 }
+
+/* Faz com que os elementos ocupem todo o espaço da tela */
+.tudo {
+    display: flex;
+    min-height: 100vh;
+}
+
 
 .navbar {
     width: 250px;
@@ -27,46 +41,109 @@ body {
     flex-direction: column; 
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
 }
+
+.conteudo {
+    flex-grow: 1; /* Faz o conteúdo ocupar o espaço restante */
+    padding: 20px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    padding: 0 20px 30px 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+#logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#logo h1 {
+    font-size: 24px;
+    color: var(--detalhe2);
+}
+
+.navbar-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link-nav {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: var(--texto2);
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1em;
+}
+
+.link-nav:hover {
+    background-color: rgba(0, 255, 255, 0.1); /* Fundo ciano semi-transparente */
+    color: var(--detalhe2);
+}
+
+.ativo {
+    background-color: var(--detalhe2); 
+    color: var(--texto1);
+    border-left: 5px solid var(--detalhe1);
+    padding-left: 15px;
+}
+
+.titulo{
+    text-align: center;
+    color: var(--detalhe2);
+    padding-bottom: 30px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.sobre{
+    text-align: center;
+    color: var(--texto1);
+    font-size: 20px;
+}
+
 .detalhes-conteudo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 0px;
-    
+    padding: 40px 0px;   
 }
 
 .caixa-jogos{
-    background-color: #131533;  
+    background-color: var(--fundo2);  
     padding: 20px;
     border-radius: 12px;
-    width: 60%;                   
-    color: white;
+    width: 80%;                   
+    color: var(--texto1);
     margin-bottom: 40px;    
     display: flex;
     flex-direction: row;
-    gap: 250px;    
+    gap: 5%;    
 }
 
 
-.imagem-game img{ 
-    
-    width: 500px;
-    height: 400px;
+.imagem-game img{    
+    width: 28vw;
 }
 
 
 .conteudo-texto{
     display: flex;
-    flex-direction: column;
-    
-   
+    flex-direction: column; 
 }
 
 .conteudo-texto p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 .text-sombra{
-    color: #A0A0C0;
+    color: var(--texto2);
 }

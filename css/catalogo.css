@@ -92,7 +92,7 @@ body {
 
 .titulo-catalogo {
     font-size: 2em;
-    margin-bottom: 20px;
+    margin: 0.8em;
     color: var(--detalhe2);
     text-align: center;
 }
@@ -105,13 +105,11 @@ body {
 }
 
 .jogo {
+    width: 15vw;
     background-color: var(--fundo2);
-    border: none;
     border-radius: 8px;
-    padding: 10px;
-    width: 15em;
-    margin: 0.6em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .jogo:hover {
@@ -122,12 +120,11 @@ body {
 
 .jogo img {
     width: 100%;
-    border-radius: 5px;
 }
 
 .nome-jogo {
     color: var(--detalhe2);
-    margin: 10px 0 5px 0;
+    margin: 10px 0 8px 0;
     text-align: center;
 }
 
@@ -137,7 +134,8 @@ body {
     text-align: center;
 }
 
-li {
+.lista-jogos li {
+    padding: 0 10px 5px 10px;
     margin-bottom: 5px;
     list-style: none;
 }
