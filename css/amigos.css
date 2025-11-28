@@ -26,7 +26,12 @@
 .adicionar-amigos{
     display: flex;
     gap: 10px;
-    margin: 30px;
+    
+}
+.friends-info{
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .pesquise-amigo{
@@ -34,6 +39,11 @@
     padding: 10px;
     border-radius: 6px;
     border: none;
+}
+
+.adicionar-amigos{
+    display: flex;
+    justify-content: space-between;
 }
 
 .adicionar-amigos button{
@@ -48,4 +58,35 @@
 
 .disponibilidade{
     
+}
+
+.amigo{
+    background-color: #354497;
+    display: flex;
+    margin: 1%;
+    flex-direction: row;
+    padding: 1%;
+    
+}
+
+.amigo img{
+    width: 5%;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    margin-left: 1%;
+}
+
+.info p {
+    color: #A0A0C0;
+    font-size: 75%;
+}
+
+.disponivel .info p{
+    color: #00acf0;
+
 }
