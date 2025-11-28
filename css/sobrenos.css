@@ -171,3 +171,16 @@ body {
     color: var(--detalhe2);
     font-size: 20px;
 }
+
+.redes:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.criadores img:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+    cursor: pointer;
+}

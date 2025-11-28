@@ -75,3 +75,10 @@
     color: white;
     cursor: pointer;
 }
+
+.ativo{
+    background-color: var(--detalhe2); 
+    color: var(--texto1);
+    border-left: 5px solid var(--detalhe1);
+    padding-left: 15px;
+}
