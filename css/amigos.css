@@ -57,9 +57,6 @@
 
 }
 
-.disponibilidade{
-    
-}
 
 .amigo{
     background-color: #354497;
@@ -88,7 +85,7 @@
 }
 
 .disponivel .info p{
-    color: #00acf0;
+    color: #E0E0E0;
 
 }
 
@@ -97,4 +94,17 @@
     color: var(--texto1);
     border-left: 5px solid var(--detalhe1);
     padding-left: 15px;
+}
+
+.disponivel{
+    color: #00aeff;
+}
+
+.offline{
+    margin-top: 5%;
+    color: #A0A0C0;
+}
+
+.disponibilidade{
+    margin-top: 5%;
 }
