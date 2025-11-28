@@ -1,0 +1,77 @@
+:root {
+    --fundo1: #1A1A2E;
+    /* Fundo Principal */
+    --fundo2: #26264A;
+    /* Fundo da Secundario */
+    --texto1: #E0E0E0;
+    /* Texto Principal */
+    --texto2: #A0A0C0;
+    /* Texto Secundario */
+    --detalhe1: #354497;
+    /* Detalhe Azul Escuro */
+    --detalhe2: #00aeff;
+    /* Detalhe Ciano */
+}
+
+.lista-de-desejos {
+    width: 60%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: white;
+
+}
+
+.adicionar-box {
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+    
+}
+
+
+.adicionar-box input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.adicionar-box button {
+    padding: 10px 15px;
+    background-color: #4a6cf7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    background-color: #26264A;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.game img{
+    width: 90px;
+    height: 50px;
+    border-radius: 6px;
+    margin-right: 15px;
+
+}
+
+.info-game{
+    flex: 1;
+}
+
+
+.remover {
+    background-color: #ff4a4a;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
