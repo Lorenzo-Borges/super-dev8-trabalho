@@ -1,11 +1,11 @@
 /* --------------------------Paleta de cores-------------------------- */
 :root {
-    --fundo1: #1A1A2E;         /* Fundo Principal */
-    --fundo2: #26264A;      /* Fundo da Secundario */
-    --texto1: #E0E0E0;    /* Texto Principal */
-    --texto2: #A0A0C0;  /* Texto Secundario */
-    --detalhe1: #354497;     /* Detalhe Azul Escuro */
-    --detalhe2: #00aeff;   /* Detalhe Ciano */
+    --fundo1: #1A1A2E;/* Fundo Principal */
+    --fundo2: #26264A;/* Fundo da Secundario */
+    --texto1: #E0E0E0;/* Texto Principal */
+    --texto2: #A0A0C0;/* Texto Secundario */
+    --detalhe1: #354497;/* Detalhe Azul Escuro */
+    --detalhe2: #00aeff;/* Detalhe Ciano */
 }
 
 /* Tira o margin e o padding padrão de tudo e declara a fonte padrão */
@@ -21,13 +21,12 @@ body {
     color: var(--texto1);
 }
 
-/* Faz com que os elementos ocupem todo o espaço da tela */
 .tudo {
     display: flex;
     min-height: 100vh;
 }
 
-
+/*navbar estilização*/
 .navbar {
     width: 250px;
     background-color: var(--fundo2);
@@ -90,6 +89,7 @@ body {
     padding-left: 15px;
 }
 
+/* Estilização do catálogo de jogos */
 .titulo-catalogo {
     font-size: 2em;
     margin: 0.8em;
@@ -138,4 +138,35 @@ body {
     padding: 0 10px 5px 10px;
     margin-bottom: 5px;
     list-style: none;
+}
+
+/* Estilização das paginas */
+.pagina {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.pagina a {
+    padding: 10px 15px;
+    background-color: var(--fundo2);
+    color: var(--texto1);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.pagina a:hover {
+    background-color: var(--detalhe2);
+}
+
+.pagina-ativa {
+    background-color: var(--detalhe1);
+    color: var(--texto2);
+    pointer-events: none;
 }
