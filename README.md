@@ -5,7 +5,7 @@ Lorenzo/Alexandre/Augusto
 
 Lorenzo-Login, Catalogo, Barra de pesquisa e Favoritos
 
-Alexandre-Perfil, Cadastro de novos jogos, Remoção de jogos existentes e Detalhes sobre jogo
+Alexandre-Perfil, Lista de Amizadades, Lista de Desejos e Detalhes sobre jogo
 
 Augusto-Cadastro, Home, Configuraçoes, Sobre nos</pre>
 

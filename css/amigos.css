@@ -1,0 +1,110 @@
+:root {
+    --fundo1: #1A1A2E;         /* Fundo Principal */
+    --fundo2: #26264A;      /* Fundo da Secundario */
+    --texto1: #E0E0E0;    /* Texto Principal */
+    --texto2: #A0A0C0;  /* Texto Secundario */
+    --detalhe1: #354497;     /* Detalhe Azul Escuro */
+    --detalhe2: #00aeff;   /* Detalhe Ciano */
+}
+
+.navbar {
+    width: 250px;
+    background-color: var(--fundo2);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column; 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.amigos{
+     width: 60%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin-top: 5%;
+}
+
+.adicionar-amigos{
+    display: flex;
+    gap: 10px;
+    
+}
+.friends-info{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.pesquise-amigo{
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.adicionar-amigos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.adicionar-amigos button{
+    padding: 10px 15px;
+    background-color: #4a6cf7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+
+.amigo{
+    background-color: #354497;
+    display: flex;
+    margin: 1%;
+    flex-direction: row;
+    padding: 1%;
+    
+}
+
+.amigo img{
+    width: 5%;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    margin-left: 1%;
+}
+
+.info p {
+    color: #A0A0C0;
+    font-size: 75%;
+}
+
+.disponivel .info p{
+    color: #E0E0E0;
+
+}
+
+.ativo{
+    background-color: var(--detalhe2); 
+    color: var(--texto1);
+    border-left: 5px solid var(--detalhe1);
+    padding-left: 15px;
+}
+
+.disponivel{
+    color: #00aeff;
+}
+
+.offline{
+    margin-top: 5%;
+    color: #A0A0C0;
+}
+
+.disponibilidade{
+    margin-top: 5%;
+}
