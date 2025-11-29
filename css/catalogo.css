@@ -78,7 +78,7 @@ body {
 }
 
 .link-nav:hover {
-    background-color: rgba(0, 255, 255, 0.1); /* Fundo ciano semi-transparente */
+    background-color: rgba(0, 255, 255, 0.1);
     color: var(--detalhe2);
 }
 
