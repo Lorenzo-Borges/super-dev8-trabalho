@@ -184,3 +184,5 @@ body {
     transition: 0.3s;
     cursor: pointer;
 }
+
+a{text-decoration: none;}
